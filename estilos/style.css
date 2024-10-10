@@ -2,8 +2,8 @@
 
 /*
 Paleta de cores
-Verde
-Lilás: #8b13b6
+azul
+branco
 */
 
 * {
@@ -14,7 +14,7 @@ Lilás: #8b13b6
 }
 
 body, html {
-    background-color: #8b13b6;
+    background-color: #595bc8;
     height: 100vh;
     width: 100vw;
 }
@@ -37,6 +37,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.452);
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
